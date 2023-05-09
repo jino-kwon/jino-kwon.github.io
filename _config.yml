@@ -105,7 +105,7 @@ analytics:
 author:
   name: "Jino K."
   avatar: # path of avatar image, e.g. "/images/bio-photo.jpg"
-  bio: "I'm in love with the world through the eyes of Data and Engineering"
+  bio: "I'm in love with the world through the eyes of Data and Engineering. Committed to lifelong learning and growing, one commit at a time."
   location: "New York, New York"
   email:
   links:
@@ -114,7 +114,7 @@ author:
       url: "mailto:jino.kwon@columbia.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://teddynote.github.io"
+      # url: "https://jino-kwon.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
 title: "Jino's Tech Progress Note"
 title_separator: "|"
 subtitle: "Grow one commit at a time"
-name: "Jino"
+name: "Jino Kwon"
 description: "This blog is where I post daily updates on my progress."
 url: "https://jino-kwon.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -103,9 +103,9 @@ analytics:
 
 # Site Author
 author:
-  name: "Jino K."
-  avatar: # path of avatar image, e.g. "/images/bio-photo.jpg"
-  bio: "I'm in love with the world through the eyes of Data and Engineering. Committed to lifelong learning and growing, one commit at a time."
+  name: "Jino Kwon"
+  avatar: /assets/images/profilepic.jpeg # path of avatar image, e.g. "/images/bio-photo.jpg"
+  bio: "I'm in love with the world through the eyes of Data and Engineering."
   location: "New York, New York"
   email:
   links:
@@ -246,16 +246,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # HTML Compression
 # - https://jch.penibelst.de/
